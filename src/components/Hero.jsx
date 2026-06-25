@@ -1,7 +1,7 @@
 import { MapPin, Download } from "lucide-react";
 import { FaLinkedin, FaGithub, FaHackerrank } from "react-icons/fa6"; 
 import { SiLeetcode, SiGeeksforgeeks, SiCodechef } from "react-icons/si"; 
-import myPhoto from "../assets/aviral.jpg"; 
+import myPhoto from "../assets/Aviral.jpg"; 
 
 export default function Hero() {
   return (
