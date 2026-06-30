@@ -4,25 +4,28 @@ import { FaGithub } from "react-icons/fa6";
 export default function Projects() {
   const projects = [
 
+
       {
       id: 1,
-      title: "Complaint Management System",
-      description: "A highly scalable, role-based ticketing system. Engineered a lightning-fast backend using Golang and MySQL, featuring custom secret-code authentication, user/admin dashboards, and real-time issue resolution tracking.",
-      techStack: ["Golang", "MySQL", "React.js", "Tailwind CSS", "REST APIs"],
-      githubLink: "https://github.com/Aviral-24/Complaint-Portal",
-      liveLink: "#",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2370&auto=format&fit=crop",
-    },
-
-    {
-      id: 2,
       title: "Web Scraper Bot",
       description: "An enterprise-grade, concurrent web scraper utilizing a microservices architecture. Decoupled a Golang/gRPC scraping engine from a Gin HTTP API Gateway. It leverages Goroutines for ultra-fast parallel extraction and features an anti-ban proxy rotation system. Controlled via a React UI, it supports direct CSV exports, while Cron Jobs and MySQL handle automated daily price-tracking and persistent storage.",
       techStack: ["Golang", "gRPC", "Protobuf", "Gin", "Colly", "React.js", "Tailwind CSS", "MySQL", "Cron Jobs"],
       githubLink: "https://github.com/Aviral-24/Web-Scraper-Bot", 
-      liveLink: "#",
+      liveLink: "https://web-scraper-bot-alpha.vercel.app/",
       image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2370&auto=format&fit=crop",
     },
+
+      {
+      id: 2,
+      title: "Complaint Management System",
+      description: "A highly scalable, role-based ticketing system. Engineered a lightning-fast backend using Golang and MySQL, featuring custom secret-code authentication, user/admin dashboards, and real-time issue resolution tracking.",
+      techStack: ["Golang", "MySQL", "React.js", "Tailwind CSS", "REST APIs"],
+      githubLink: "https://github.com/Aviral-24/Complaint-Portal",
+      liveLink: "https://complaint-portal-tau.vercel.app/",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2370&auto=format&fit=crop",
+    },
+
+  
 
     {
       id: 3,
@@ -30,7 +33,7 @@ export default function Projects() {
       description: "A full-stack communication platform engineered with WebSockets. Features secure RESTful authentication via Axios, seamless 1-on-1 messaging with live edit/delete capabilities, and dynamic UI notifications using React Toastify. Built with a router-driven React frontend and backed by a persistent MySQL database.",
       techStack: ["React.js", "Node.js", "Socket.io", "MySQL", "Axios"],
       githubLink: "https://github.com/Aviral-24/Real-Time-Chat-Application",
-      liveLink: "#",
+      liveLink: "https://real-time-chat-application-ten-coral.vercel.app/",
       image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2374&auto=format&fit=crop",
     },
     {
@@ -39,7 +42,7 @@ export default function Projects() {
       description: "A MERN-based job tracking app to create, edit, delete, and filter job applications. It features secure JWT authentication, profile management with Cloudinary image uploads, advanced pagination, and insightful analytics using charts.",
       techStack: ["React.js", "Express.js", "Node.js", "MYSQL", "JWT"],
       githubLink: "https://github.com/Aviral-24/Jobify-Portal", 
-      liveLink: "#", 
+      liveLink: "https://jobify-portal-two.vercel.app/", 
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop", 
     }
   
